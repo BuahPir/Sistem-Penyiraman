@@ -2,7 +2,7 @@
 Ini adalah projek Mata Kuliah Sistem Mikroprosessor.
 Sistem Penyiraman akan otomatis menyala jika memenuhi kondisi pada cuaca, cahaya ataupun kelembaban tanah
 
-##
+## Komponen
 <ol type="1">
   <li>DS3231</li>
   <li>Arduino Uno</li>
