@@ -1,11 +1,11 @@
 <?php
-	$conn = mysqli_connect("localhost", "root", "", "arduino");
+	$conn = mysqli_connect("localhost", "root", "", "penyiraman");
 
 	if (mysqli_connect_errno()) {
 		die("Error connecting to database" . mysqli_connect_error());
 	}
-	$cm= $_GET['jarak'];
-	$insert ="INSERT INTO sensor (jarak) VALUES ('$cm')";
+	$status= $_GET['status'];
+	$insert ="INSERT INTO stats (status) VALUES ('$status')";
 	
 	if (mysqli_query($conn, $insert)) {
 		echo "Success memasukkan record";
