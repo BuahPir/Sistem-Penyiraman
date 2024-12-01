@@ -23,4 +23,6 @@ Sistem Penyiraman akan otomatis menyala jika memenuhi kondisi pada cuaca, cahaya
   <li>Dan ESP32 akan mengirim data Status ke Server lalu ke Database (Disini saya menggunakan Laptop sebagai server)</li>
 </ol>
 
+## Rangkaian
+<img src="Untitled Sketch_bb.png">
 
