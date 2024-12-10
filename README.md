@@ -24,7 +24,7 @@ Sistem Penyiraman akan otomatis menyala jika memenuhi kondisi pada cuaca, cahaya
 </ol>
 
 ## Rangkaian
-<img src="Rangkaian_BB.png">
+<img src="Untitled Sketch_bb.png">
 
 ## Schematic
-<img src="Schematic.png">
+<img src="Untitled Sketch_schem.png">
