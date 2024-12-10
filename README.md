@@ -17,7 +17,7 @@ Sistem Penyiraman akan otomatis menyala jika memenuhi kondisi pada cuaca, cahaya
 
 ## Cara Kerja
 <ol type="1">
-  <li>Arduino akan membaca data dari Komponen DHT, Soil Moisture, LDR atau DS3231 (Note: untuk sekarang hanya membaca DHT, dan Soil Moisture)</li>
+  <li>Arduino akan membaca data dari Komponen DHT, Soil Moisture, LDR atau DS3231</li>
   <li>Jika Data dari Komponen memenuhi kondisi yang di tentukan maka Pompa Air akan menyala</li>
   <li>Lalu Arduino akan melakukan Communication I2C ke ESP32 yang dimana Arduino sebagai Master dan ESP32 sebagai Slave</li>
   <li>Dan ESP32 akan mengirim data Status ke Server lalu ke Database (Disini saya menggunakan Laptop sebagai server)</li>
